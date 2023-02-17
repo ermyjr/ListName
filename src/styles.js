@@ -1,3 +1,4 @@
+
 import styled from 'styled-components'
 import Background from './assets/background1.svg'
 
@@ -24,4 +25,5 @@ export const Input = styled.input `
 `;
 
 export const Button = styled.button `
+
 `;
