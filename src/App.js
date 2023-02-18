@@ -1,4 +1,6 @@
 import React from 'react';
+import People from './assets/peoplesTalk.svg'
+
 import {
   Container, Image,
   ContainerItems,
@@ -12,7 +14,7 @@ function App() {
 
   return (
     <Container>
-      <Image />
+      <Image alt='people talk' src={People} />
       <ContainerItems>
         <H1> olá! </H1>
         <InputLabel>nome</InputLabel>
@@ -22,7 +24,7 @@ function App() {
         <Input placeholder='Idade' />
 
         <Button>Cadastrar</Button>
-        
+
       </ContainerItems>
     </Container>
   );
