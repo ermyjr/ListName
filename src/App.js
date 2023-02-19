@@ -1,4 +1,7 @@
 import React from 'react';
+import People from './assets/peoplesTalk.svg';
+import Arrow from './assets/Arrow.svg';
+
 import {
   Container, Image,
   ContainerItems,
@@ -12,7 +15,7 @@ function App() {
 
   return (
     <Container>
-      <Image />
+      <Image alt='people talk' src={People} />
       <ContainerItems>
         <H1> olá! </H1>
         <InputLabel>nome</InputLabel>
@@ -21,8 +24,8 @@ function App() {
         <InputLabel>Idade</InputLabel>
         <Input placeholder='Idade' />
 
-        <Button>Cadastrar</Button>
-        
+        <Button>Cadastrar <img alt='' src={Arrow}/></Button>
+
       </ContainerItems>
     </Container>
   );
