@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Background from './assets/background1.svg'
 
 export const Container = styled.div`
-height: 100%;
+height: 100vh;
 background: url("${Background}");
 background-size: cover;
 display: flex;
@@ -82,4 +82,9 @@ display: flex;
 align-items: center;
 justify-content: center;
 gap: 25px;
+
+&:hover{
+          opacity: 0.8;}
+&:active{ 
+     opacity: 0.5;}
 `;
