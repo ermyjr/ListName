@@ -1,3 +1,4 @@
+
 import React from 'react';
 import People from './assets/peoplesTalk.svg';
 import Arrow from './assets/Arrow.svg';
@@ -30,5 +31,6 @@ function App() {
     </Container>
   );
 }
+
 
 export default App
