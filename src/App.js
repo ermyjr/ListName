@@ -13,6 +13,8 @@ import {
 
 function App() {
 
+  const user = [{ id: Math.random(), name: "Elizeu", age: 28 }, { id: Math.random(), name: "Maria", age: 17 }];
+
   return (
     <Container>
       <Image alt='people talk' src={People} />
@@ -24,10 +26,20 @@ function App() {
         <InputLabel>Idade</InputLabel>
         <Input placeholder='Idade' />
 
-        <Button>Cadastrar <img alt='' src={Arrow}/></Button>
+        <Button>Cadastrar <img alt='' src={Arrow} /></Button>
+
+        <ul>
+          {user.map((user) => (
+            <li key={user.id}>{user.name} - {user.age}
+          
+            </li>
+          ))}
+        </ul>
 
       </ContainerItems>
     </Container>
+
+
   );
 }
 
