@@ -26,7 +26,7 @@ function App() {
         <InputLabel>Idade</InputLabel>
         <Input placeholder='Idade' />
 
-        <Button>Cadastrar <img alt='' src={Arrow} /></Button>
+        <Button>Cadastrar <img alt='seta' src={Arrow} /></Button>
 
         <ul>
           {user.map((user) => (
