@@ -9,10 +9,8 @@ background-size: cover;
 display: flex;
 flex-direction: column;
 align-items: center;
-gap: 40px;
-
-
-`;
+gap: 40px
+;`;
 
 export const Image = styled.img`
 margin-top: 30px;
@@ -29,7 +27,6 @@ padding: 50px 36px;
 display: flex;
 flex-direction: column;
 justify-content: center;
-
 `;
 
 export const H1 = styled.h1`
@@ -48,7 +45,6 @@ font-weight: bold;
 font-size: 18px;
 line-height: 22px;
 margin-left: 25px;
-
 `;
 
 export const Input = styled.input`
@@ -63,8 +59,6 @@ outline: none;
 padding-left: 25px;
 font-size: 18px;
 line-height: 28px;
-
-
 `;
 
 export const Button = styled.button`
