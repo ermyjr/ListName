@@ -1,6 +1,7 @@
 import React from 'react';
 import People from './assets/peoplesTalk.svg';
 import Arrow from './assets/Arrow.svg';
+import Trash from './assets/lixeira.svg'
 
 import {
   Container, Image,
@@ -13,7 +14,12 @@ import {
 
 function App() {
 
-  const user = [{ id: Math.random(), name: "Elizeu", age: 28 }, { id: Math.random(), name: "Maria", age: 17 }];
+  const user = [
+    { id: Math.random(), name: "Elizeu", age: 28 },
+    { id: Math.random(), name: "Maria", age: 17 }
+  ];
+
+  function addNewUser () {}
 
   return (
     <Container>
@@ -26,11 +32,15 @@ function App() {
         <InputLabel>Idade</InputLabel>
         <Input placeholder='Idade' />
 
-        <Button>Cadastrar <img alt='seta' src={Arrow} /></Button>
+        <Button onClick={addNewUser}>
+          Cadastrar <img alt='seta' src={Arrow} />
+        </Button>
 
         <ul>
           {user.map((user) => (
-            <li key={user.id}>{user.name} - {user.age}
+            <li key={user.id}>
+              <p>{user.name}</p> <p>{user.age}</p>
+              <button><img src={Trash} alt='lata de lixo'/></button>
           
             </li>
           ))}
