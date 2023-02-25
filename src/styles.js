@@ -76,9 +76,40 @@ display: flex;
 align-items: center;
 justify-content: center;
 gap: 25px;
+margin-bottom: 34px;
 
 &:hover{
           opacity: 0.8;}
 &:active{ 
      opacity: 0.5;}
 `;
+
+export const User = styled.li `
+gap: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgba( 255,255,255,0.25);
+box-shadow: 0px 4px 4px rgba( 0,0,0, 0.25);
+border-radius: 14px;
+border: none;
+height: 58px;
+width: 343px;
+outline: none;
+padding: 25px;
+margin-top: 10px;
+
+p{
+     font-style: normal;
+     font-size: 20px;
+     font-weight: normal;
+     line-height: 28px;
+     color: #ffffff;
+}
+
+button{
+     background: none;
+     border: none;
+     cursor: pointer;
+}
+`
