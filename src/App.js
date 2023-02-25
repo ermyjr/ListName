@@ -1,7 +1,7 @@
 import React from 'react';
 import People from './assets/peoplesTalk.svg';
 import Arrow from './assets/Arrow.svg';
-import Trash from './assets/lixeira.svg'
+import Trash from './assets/lixeira.svg';
 
 import {
   Container, Image,
@@ -9,7 +9,8 @@ import {
   H1,
   InputLabel,
   Input,
-  Button
+  Button,
+  User
 } from './styles'
 
 function App() {
@@ -38,11 +39,11 @@ function App() {
 
         <ul>
           {user.map((user) => (
-            <li key={user.id}>
+            <User key={user.id}>
               <p>{user.name}</p> <p>{user.age}</p>
               <button><img src={Trash} alt='lata de lixo'/></button>
           
-            </li>
+            </User>
           ))}
         </ul>
 
