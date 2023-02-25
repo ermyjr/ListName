@@ -84,7 +84,7 @@ margin-bottom: 34px;
      opacity: 0.5;}
 `;
 
-export const User = styled.li `
+export const User = styled.li`
 gap: 30px;
 display: flex;
 align-items: center;
