@@ -9,8 +9,8 @@ background-size: cover;
 display: flex;
 flex-direction: column;
 align-items: center;
-gap: 40px
-;`;
+gap: 40px;
+`;
 
 export const Image = styled.img`
 margin-top: 30px;
@@ -84,7 +84,7 @@ margin-bottom: 34px;
      opacity: 0.5;}
 `;
 
-export const User = styled.li `
+export const User = styled.li`
 gap: 30px;
 display: flex;
 align-items: center;
@@ -106,10 +106,8 @@ p{
      line-height: 28px;
      color: #ffffff;
 }
-
 button{
      background: none;
      border: none;
      cursor: pointer;
-}
-`
+}`
