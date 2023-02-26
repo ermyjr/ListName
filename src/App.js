@@ -20,8 +20,7 @@ function App() {
     { id: Math.random(), name: "Maria", age: 17 }
   ];
 
-  function addNewUser() { }
-
+  function addNewUser() {}
   return (
     <Container>
       <Image alt='people talk' src={People} />
@@ -41,8 +40,9 @@ function App() {
           {user.map((user) => (
             <User key={user.id}>
               <p>{user.name}</p> <p>{user.age}</p>
-              <button><img src={Trash} alt='lata de lixo' /></button>
-
+              <button>
+                <img src={Trash} alt='lata de lixo'/>
+              </button>
             </User>
           ))}
         </ul>

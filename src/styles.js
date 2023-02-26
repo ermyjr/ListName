@@ -9,8 +9,8 @@ background-size: cover;
 display: flex;
 flex-direction: column;
 align-items: center;
-gap: 40px
-;`;
+gap: 40px;
+`;
 
 export const Image = styled.img`
 margin-top: 30px;
@@ -106,10 +106,8 @@ p{
      line-height: 28px;
      color: #ffffff;
 }
-
 button{
      background: none;
      border: none;
      cursor: pointer;
-}
-`
+}`
