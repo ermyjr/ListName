@@ -20,17 +20,17 @@ function App() {
     { id: Math.random(), name: "Maria", age: 17 }
   ];
 
-  function addNewUser() {}
+  function addNewUser(){}
   return (
     <Container>
-      <Image alt='people talk' src={People} />
+      <Image alt='people talk' src={People}/>
       <ContainerItems>
         <H1> olá! </H1>
         <InputLabel>nome</InputLabel>
-        <Input placeholder='Nome' />
+        <Input placeholder='Nome'/>
 
         <InputLabel>Idade</InputLabel>
-        <Input placeholder='Idade' />
+        <Input placeholder='Idade'/>
 
         <Button onClick={addNewUser}>
           Cadastrar <img alt='seta' src={Arrow} />
@@ -49,8 +49,7 @@ function App() {
 
       </ContainerItems>
     </Container>
-
-
+    
   );
 }
 

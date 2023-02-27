@@ -106,6 +106,7 @@ p{
      line-height: 28px;
      color: #ffffff;
 }
+
 button{
      background: none;
      border: none;
