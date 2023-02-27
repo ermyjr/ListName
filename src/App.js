@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import People from './assets/peoplesTalk.svg';
 import Arrow from './assets/Arrow.svg';
 import Trash from './assets/lixeira.svg';
@@ -15,22 +15,21 @@ import {
 
 function App() {
 
-  const user = [
-    { id: Math.random(), name: "Elizeu", age: 28 },
-    { id: Math.random(), name: "Maria", age: 17 }
-  ];
+  const [user, setUsers] = useState()
 
-  function addNewUser(){}
+  function addNewUser() {
+    user.push({ id: Math.random(), name: "Elizeu", age: 28 });
+  }
   return (
     <Container>
-      <Image alt='people talk' src={People}/>
+      <Image alt='people talk' src={People} />
       <ContainerItems>
         <H1> olá! </H1>
         <InputLabel>nome</InputLabel>
-        <Input placeholder='Nome'/>
+        <Input placeholder='Nome' />
 
         <InputLabel>Idade</InputLabel>
-        <Input placeholder='Idade'/>
+        <Input placeholder='Idade' />
 
         <Button onClick={addNewUser}>
           Cadastrar <img alt='seta' src={Arrow} />
@@ -41,7 +40,7 @@ function App() {
             <User key={user.id}>
               <p>{user.name}</p> <p>{user.age}</p>
               <button>
-                <img src={Trash} alt='lata de lixo'/>
+                <img src={Trash} alt='lata de lixo' />
               </button>
             </User>
           ))}
@@ -49,7 +48,7 @@ function App() {
 
       </ContainerItems>
     </Container>
-    
+
   );
 }
 
