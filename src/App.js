@@ -15,10 +15,10 @@ import {
 
 function App() {
 
-  const [user, setUsers] = useState()
+  const [user, setUsers] = useState([]);
 
   function addNewUser() {
-    user.push({ id: Math.random(), name: "Elizeu", age: 28 });
+    setUsers([{id: Math.random(), name: "Elizeu", age: 28 }]);
   }
   return (
     <Container>
