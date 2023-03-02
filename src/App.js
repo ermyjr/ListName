@@ -29,9 +29,9 @@ function App() {
     ]);
   }
   function deleteUser(userId){
-    const newUser = user.filter( user=> user.id !== userId)
+    const newUser = user.filter( user=> user.id !== userId);
 
-    setUsers(newUser)
+    setUsers(newUser);
   }
 
   return (
