@@ -100,6 +100,7 @@ padding: 25px;
 margin-top: 10px;
 
 p{
+
      font-style: normal;
      font-size: 20px;
      font-weight: normal;
@@ -111,4 +112,5 @@ button{
      background: none;
      border: none;
      cursor: pointer;
-}`
+}
+`
