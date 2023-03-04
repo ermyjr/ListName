@@ -79,9 +79,11 @@ gap: 25px;
 margin-bottom: 34px;
 
 &:hover{
-          opacity: 0.8;}
+          opacity: 0.8;
+     }
 &:active{ 
-     opacity: 0.5;}
+     opacity: 0.5;
+     }
 `;
 
 export const User = styled.li`
@@ -100,7 +102,6 @@ padding: 25px;
 margin-top: 10px;
 
 p{
-
      font-style: normal;
      font-size: 20px;
      font-weight: normal;

@@ -35,31 +35,35 @@ function App() {
 
   return (
     <Container>
+      
       <Image alt='people talk' src={People} />
       <ContainerItems>
+
         <H1> olá! </H1>
         <InputLabel>nome</InputLabel>
         <Input ref={inputName} placeholder='Nome' />
-
         <InputLabel>Idade</InputLabel>
         <Input ref={inputAge} placeholder='Idade' />
-
         <Button onClick={addNewUser}>
           Cadastrar <img alt='seta' src={Arrow} />
         </Button>
-
+        
         <ul>
+
           {user.map((user) => (
             <User key={user.id}>
               <p>{user.name}</p> <p>{user.age}</p>
               <button onClick={()=>deleteUser(user.id)}>
                 <img src={Trash} alt='lata de lixo' />
               </button>
+
             </User>
           ))}
+
         </ul>
 
       </ContainerItems>
+
     </Container>
   );
 }
