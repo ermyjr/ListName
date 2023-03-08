@@ -12,7 +12,7 @@ align-items: center;
 gap: 40px;
 `;
 
-export const Image = styled.img`
+export const Image = styled.img `
 margin-top: 30px;
 `;
 

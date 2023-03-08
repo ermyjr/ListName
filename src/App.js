@@ -24,11 +24,7 @@ function App() {
   async function addNewUser() {
     const data = await axios.post("http://localhost:3001/users", { name: inputName.current.value, age: inputAge.current.value })
     //   setUsers([...user,
-    //   {
-    //     id: Math.random(),
-    //     name: inputName.current.value,
-    //     age: inputAge.current.value
-    //   }
+    //   {id: Math.random(),name: inputName.current.value,age: inputAge.current.value}
     //   ]);
     console.log(data)
   }
