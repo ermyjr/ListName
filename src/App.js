@@ -28,6 +28,7 @@ function App() {
        {id: Math.random(),name: inputName.current.value,age: inputAge.current.value}
       ]);
     console.log(data) */
+    
   }
   function deleteUser(userId) {
     const newUser = user.filter(user => user.id !== userId);
