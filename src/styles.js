@@ -10,11 +10,11 @@ display: flex;
 flex-direction: column;
 align-items: center;
 gap: 40px;
-`;
+`
 
 export const Image = styled.img `
 margin-top: 30px;
-`;
+`
 
 export const ContainerItems = styled.div`
 height: 100vh;
@@ -27,7 +27,7 @@ padding: 50px 36px;
 display: flex;
 flex-direction: column;
 justify-content: center;
-`;
+`
 
 
 export const H1 = styled.h1`
@@ -37,7 +37,7 @@ line-height: 40px;
 text-align: center;
 margin-bottom: 80px;
 color: #FFFFFF;
-`;
+`
 
 export const InputLabel = styled.p`
 letter-spacing: 0.4px;
@@ -85,7 +85,7 @@ margin-bottom: 34px;
 &:active{ 
      opacity: 0.5;
      }
-`;
+`
 
 export const User = styled.li`
 gap: 30px;
@@ -114,5 +114,4 @@ button{
      background: none;
      border: none;
      cursor: pointer;
-}
-`
+}`
