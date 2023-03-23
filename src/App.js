@@ -37,7 +37,6 @@ function App() {
 
   return (
     <Container>
-
       <Image alt='people talk' src={People} />
       <ContainerItems>
 
