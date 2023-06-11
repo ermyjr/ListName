@@ -22,7 +22,11 @@ function App() {
   const inputAge = useRef();
 
   async function addNewUser() {
-    const data = await axios.post("http://localhost:3001/users", { name: inputName.current.value, age: inputAge.current.value })
+    const data = await axios.post("http://localhost:3001/users", { 
+      name: inputName.current.value, 
+      age: inputAge.current.value });
+
+      console.log(data)
     
     /*   setUsers([...user,
        {id: Math.random(),name: inputName.current.value,age: inputAge.current.value}
