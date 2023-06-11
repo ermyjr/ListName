@@ -7,6 +7,8 @@ ReactDOM.render(
     <>
         <App />
         <GlobalStyle />
+    
     </>,
+
     document.getElementById("root"));
 

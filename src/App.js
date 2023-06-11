@@ -60,7 +60,6 @@ function App() {
               <button onClick={() => deleteUser(user.id)}>
                 <img src={Trash} alt='lata de lixo' />
               </button>
-
             </User>
           ))}
 
