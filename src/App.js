@@ -50,7 +50,6 @@ function App() {
         </Button>
 
         <ul>
-
           {user.map((user) => (
             <User key={user.id}>
               <p>{user.name}</p> <p>{user.age}</p>
