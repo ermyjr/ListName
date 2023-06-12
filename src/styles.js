@@ -12,7 +12,7 @@ align-items: center;
 gap: 40px;
 `
 
-export const Image = styled.img `
+export const Image = styled.img`
 margin-top: 30px;
 `
 
@@ -50,7 +50,7 @@ margin-left: 25px;
 
 export const Input = styled.input`
 background-color: rgba( 255,255,255,0.25);
-box-shadow: 0px 4px 4px rgba( 0,0,0, 0.25);
+box-shadow: 0px 4px 4px rgba( 0,0,1, 0.25);
 border-radius: 14px;
 border: none;
 height: 58px;
@@ -65,7 +65,7 @@ line-height: 28px;
 export const Button = styled.button`
 height: 74px;
 width: 343px;
-background-color: rgba( 0,0,0,0.8);
+background-color: rgba( 0,0,1,0.8);
 border-radius: 14px;
 border: none;
 cursor: pointer;
@@ -80,10 +80,10 @@ gap: 25px;
 margin-bottom: 34px;
 
 &:hover{
-          opacity: 0.8;
+          opacity: 0.7;
      }
 &:active{ 
-     opacity: 0.5;
+     opacity: 0.4;
      }
 `
 

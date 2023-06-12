@@ -54,14 +54,12 @@ function App() {
         </Button>
 
         <ul>
-
           {user.map((user) => (
             <User key={user.id}>
               <p>{user.name}</p> <p>{user.age}</p>
               <button onClick={() => deleteUser(user.id)}>
                 <img src={Trash} alt='lata de lixo' />
               </button>
-
             </User>
           ))}
 

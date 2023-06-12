@@ -7,5 +7,5 @@ export default createGlobalStyle `
     box-sizing: border-box;
     text-transform: capitalize;
     font-family: 'Roboto', sans-serif;
-}
-`;
+}`
+;
